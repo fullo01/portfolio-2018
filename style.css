@@ -71,6 +71,7 @@ body p {
   background: rgb(239, 240, 240);
   color: black;
   display: grid;
+  grid-template-rows: 1fr 10fr;
 }
 
 .about-me-skills h1 {
@@ -177,6 +178,10 @@ footer {
     font-size: 25px;
   }
 
+  .skill-icons {
+    margin-top: 0;
+  }
+
   .about-me {
     grid-template-rows: auto;
   }
@@ -245,4 +250,9 @@ footer {
   .contact-icons {
     grid-column: 1 / 4;
   }
+
+  .skill-icons {
+    margin-top: 0.2em;
+  }
+
 }
