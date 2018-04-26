@@ -336,6 +336,10 @@ footer {
     margin-top: 0.2em;
   }
 
+  .portfolio-1-banner {
+    background-position: 0 -0.1%;
+  }
+
   .portfolio-3-banner {
     background-position: 0 -10%;
   }
