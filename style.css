@@ -87,7 +87,7 @@ body p {
 
 .icon {
   color: rgb(187, 187, 187);
-  margin: 1vh;
+  margin: 0.3em;
 }
 
 .icon:hover {
@@ -96,7 +96,7 @@ body p {
 
 .icon h3 {
   margin: 0;
-  font-size: 1vh;
+  font-size: 0.2em;
   color: black;
   font-family: sans-serif;
   text-align: center;
