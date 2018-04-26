@@ -70,17 +70,23 @@ body p {
   padding: 20px;
   background: rgb(239, 240, 240);
   color: black;
+  display: grid;
 }
+
+.about-me-skills h1 {
+    max-height: 0;
+  }
 
 .about-me-skills:hover {
   background-color: rgb(225, 233, 233);
 }
 
 .skill-icons {
+  margin-top: 0.2em;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  font-size: 3em;
-  padding: 10px;
+  font-size: 3.5em;
+  padding: 5px;
   justify-items: center;
   align-items: center;
 }
