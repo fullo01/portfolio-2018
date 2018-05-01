@@ -6,8 +6,6 @@ body {
   background: #1c92d2;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to top,#1c92d2, #f2fcfe);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to top, #1c92d2, #f2fcfe); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-
 }
 
 body h1 {
@@ -91,7 +89,7 @@ body p {
 }
 
 .about-me-skills:hover {
-  background-color: rgb(250, 133, 23));
+  background-color: rgb(250, 133, 23);
 }
 
 .skill-icons {
