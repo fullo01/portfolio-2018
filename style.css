@@ -138,8 +138,8 @@ main-content h1 {
 
 .portfolio-1 h4 {
   color: black;
-  font-family: "Lobster", cursive;
-  font-size: 2.3em;
+  font-family: "Pacifico", cursive;
+  font-size: 2.0em;
 }
 
 .portfolio-1:hover {
@@ -245,10 +245,29 @@ footer {
   font-size: 10px;
 }
 
+.button {
+    text-decoration: none;
+    background-color: rgb(39, 29, 177);
+    display: grid;
+    height: 40px;
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+    color: white;
+    border-bottom-color: rgb(13, 4, 145);
+    border-bottom-style: solid;
+    border-bottom-width: 4px;
+}
+
+.button:hover {
+    background-color: rgb(63, 55, 168);
+  }
+
 @media screen and (max-width: 1680px) {
   .portfolio h4 {
     font-size: 1.5em;
   }
+
 }
 
 @media screen and (max-width: 1200px) {
@@ -265,7 +284,9 @@ footer {
   }
 
   header img {
-    width: 130px;
+        width: 130px;
+  }
+
 }
 
 @media screen and (max-width: 1380px) {
@@ -361,8 +382,16 @@ footer {
     background-position: 0 -0.1%;
   }
 
-  .portfolio-3-banner {
-    background-position: 0 -10%;
-  }
+}
+
+@media screen and (max-width: 320px) {
+    
+    header {
+        margin-right: 5px;
+    }
+
+    main-content {
+        margin-right: 5px;
+    }
 
 }
