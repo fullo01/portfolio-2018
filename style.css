@@ -1,248 +1,256 @@
 body {
-  display: grid;
-  grid-template-columns: 1fr 3fr 1fr;
-  padding-top: 3vh;
-  font-family: sans-serif;
-  background: #1c92d2;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to top,#1c92d2, #f2fcfe);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to top, #1c92d2, #f2fcfe); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    padding-top: 3vh;
+    font-family: sans-serif;
+    background: #1c92d2;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #1c92d2, #f2fcfe)fixed;
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #1c92d2, #f2fcfe) fixed;
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 body h1 {
-  margin: 0;
-  font-size: 160px;
+    margin: 0;
+    font-size: 160px;
 }
 
 header {
-  font-family: 'Bangers', cursive;
-  font-size: 60px;
-  grid-column: 2 / 3;
-  border-bottom-style: solid;
-  display: grid;
-  grid-template-columns: 3fr 1fr;
+    font-family: 'Bangers', cursive;
+    font-size: 60px;
+    grid-column: 2 / 3;
+    border-bottom-style: solid;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
 }
 
 header h2 {
     font-family: sans-serif;
     font-size: 45px;
-  }
+}
 
 header img {
-  grid-column: 2 / 3;
-  grid-row: 1 / 3;
-  width: 170px;
-  display: block;
-  justify-self: center;
-  align-self: center;
-  border-radius: 55%;
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+    width: 170px;
+    display: block;
+    justify-self: center;
+    align-self: center;
+    border-radius: 55%;
 }
 
 header h1 {
-  padding: 0;
+    padding: 0;
 }
 
 header h2 {
-  padding: 0;
-  margin: 0;
+    padding: 0;
+    margin: 0;
 }
 
 main-content {
-  display: grid;
-  grid-column: 2 / 3;
-  grid-row-gap: 5px;
-  padding-bottom: 25px;
+    display: grid;
+    grid-column: 2 / 3;
+    grid-row-gap: 5px;
+    padding-bottom: 25px;
 }
 
 body p {
-  font-family: sans-serif;
-  font-size: 15px;
-  line-height: 1.3;
+    font-family: sans-serif;
+    font-size: 15px;
+    line-height: 1.3;
 }
 
 .about-me {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  grid-gap: 10px;
-  margin-top: 25px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 10px;
+    margin-top: 25px;
 }
 
 .about-me-text {
-  padding: 20px;
-  background: rgb(39, 29, 177);
-  color: rgb(240, 241, 255);
+    padding: 20px;
+    background: rgb(39, 29, 177);
+    color: rgb(240, 241, 255);
 }
 
 .about-me-text:hover {
-  background-color:  rgb(17, 6, 180);
+    background-color: rgb(17, 6, 180);
 }
 
 .about-me-skills {
-  padding: 20px;
-  background: rgb(255, 141, 34);
-  color: white;
-  display: grid;
-  grid-template-rows: 1fr 10fr;
+    padding: 20px;
+    background: rgb(255, 141, 34);
+    color: white;
+    display: grid;
+    grid-template-rows: 1fr 10fr;
 }
 
 .about-me-skills h1 {
-  max-height: 0;
-  color: rgb(14, 31, 129);
+    max-height: 0;
+    color: rgb(14, 31, 129);
 }
 
 .about-me-skills:hover {
-  background-color: rgb(250, 133, 23);
+    background-color: rgb(250, 133, 23);
 }
 
 .skill-icons {
-  margin-top: 0.2em;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  font-size: 3.5em;
-  padding: 5px;
-  justify-items: center;
-  align-items: center;
+    margin-top: 0.2em;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    font-size: 3.5em;
+    padding: 5px;
+    justify-items: center;
+    align-items: center;
 }
 
 .icon {
-  color: rgb(14, 31, 129);
-  margin: 0.3em;
+    color: rgb(14, 31, 129);
+    margin: 0.3em;
 }
 
 .icon:hover {
-  color: rgb(243, 243, 243);
+    color: rgb(243, 243, 243);
 }
 
 .icon h3 {
-  margin: 0;
-  font-size: 0.2em;
-  color: black;
-  font-family: sans-serif;
-  text-align: center;
+    margin: 0;
+    font-size: 0.2em;
+    color: black;
+    font-family: sans-serif;
+    text-align: center;
 }
 
 .portfolio {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
 }
 
 main-content h1 {
-  font-size: 30px;
+    font-size: 30px;
 }
 
 .portfolio-1 {
-  background: rgb(211, 114, 101);
-  color: white;
-  padding: 20px;
+    background: rgb(211, 114, 101);
+    color: white;
+    padding: 20px;
+    display: grid;
+    grid-template-rows: 150px 330px 50px 50px;
 }
 
 .portfolio-1 h4 {
-  color: black;
-  font-family: "Pacifico", cursive;
-  font-size: 2.0em;
+    color: black;
+    font-family: "Pacifico", cursive;
+    font-size: 2.0em;
 }
 
 .portfolio-1:hover {
-  background-color: rgb(211, 98, 83);
+    background-color: rgb(211, 98, 83);
 }
 
 .portfolio-1-banner {
-  background-image: url("escapade.jpg");
-  min-height: 150px;
-  display: grid;
-  justify-content: center;
-  align-content: center;
-  background-position: 0 30%;
-  background-size: cover;
+    background-image: url("escapade.jpg");
+    height: 150px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    background-position: 0 30%;
+    background-size: cover;
 }
 
 .portfolio-2 {
-  background: rgb(211, 114, 101);
-  color: white;
-  padding: 20px;
+    background: rgb(211, 114, 101);
+    color: white;
+    padding: 20px;
+    display: grid;
+    grid-template-rows: 150px 330px 50px 50px;
 }
 
 .portfolio-2:hover {
-  background-color: rgb(211, 98, 83);
+    background-color: rgb(211, 98, 83);
 }
 
 .portfolio-2-banner {
-  background: #a8c0ff; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to top,
-    #3f2b96,
-    #a8c0ff
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to top,
-    #3f2b96,
-    #a8c0ff
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  min-height: 150px;
-  display: grid;
-  justify-content: center;
-  align-content: center;
+    background: #a8c0ff;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient( to top, #3f2b96, #a8c0ff);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient( to top, #3f2b96, #a8c0ff);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 150px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
 }
 
 .portfolio-2 h4 {
-  color: white;
-  font-size: 2.3em;
-  font-family: "Anonymous Pro", monospace;
+    color: white;
+    font-size: 2.3em;
+    font-family: "Anonymous Pro", monospace;
 }
 
 .portfolio-3 {
-  background: rgb(211, 114, 101);
-  color: white;
-  padding: 20px;
+    background: rgb(211, 114, 101);
+    color: white;
+    padding: 20px;
+    display: grid;
+    grid-template-rows: 150px 330px 50px 50px;
 }
 
 .portfolio-3:hover {
-  background-color: rgb(211, 98, 83);
+    background-color: rgb(211, 98, 83);
 }
 
 .portfolio-3-banner {
-  background-image: url("moviesearch.jpg");
-  min-height: 150px;
-  display: grid;
-  justify-content: center;
-  align-content: center;
-  background-position: 0 30%;
-  background-size: cover;
+    background-image: url("moviesearch.jpg");
+    height: 150px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    background-position: 0 30%;
+    background-size: cover;
 }
 
 .portfolio-3 h4 {
-  color: black;
-  font-size: 2.3em;
-  font-family: "Libre Barcode 39 Text", cursive;
+    color: black;
+    font-size: 2.3em;
+    font-family: "Libre Barcode 39 Text", cursive;
 }
 
 footer {
-  grid-row: 3 / 4;
-  grid-column: 2 / 3;
-  padding: 20px;
-  border-top-style: solid;
-  display: grid;
-  justify-content: center;
-  grid-template-columns: 1fr 1fr 1fr;
-  justify-items: center;
+    grid-row: 3 / 4;
+    grid-column: 2 / 3;
+    padding: 20px;
+    border-top-style: solid;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
 }
 
 .contact-icons {
-  grid-column: 2 / 3;
-  font-size: 3em;
+    grid-column: 2 / 3;
+    font-size: 3em;
 }
 
 .contact-icons a {
-  color: black;
-  text-decoration: none;
+    color: black;
+    text-decoration: none;
+}
+
+.contact-icons a:hover {
+    color: rgb(255, 255, 255);
 }
 
 .copyright {
-  grid-column: 1 / 4;
-  grid-row: 2 / 3;
-  margin: 15px;
-  font-family: sans-serif;
-  font-size: 10px;
+    grid-column: 1 / 4;
+    grid-row: 2 / 3;
+    margin: 15px;
+    font-family: sans-serif;
+    font-size: 10px;
 }
 
 .button {
@@ -257,141 +265,157 @@ footer {
     border-bottom-color: rgb(13, 4, 145);
     border-bottom-style: solid;
     border-bottom-width: 4px;
+    align-self: end;
 }
 
 .button:hover {
-    background-color: rgb(63, 55, 168);
-  }
+    background-color: rgb(42, 34, 143);
+}
+
+.button2 {
+    text-decoration: none;
+    background-color: rgb(130, 122, 248);
+    display: grid;
+    height: 40px;
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+    color: white;
+    border-bottom-color: rgb(95, 87, 206);
+    border-bottom-style: solid;
+    border-bottom-width: 4px;
+    align-self: end;
+}
+
+.button2:hover {
+    background-color: rgb(111, 102, 235);
+}
 
 @media screen and (max-width: 1680px) {
-  .portfolio h4 {
-    font-size: 1.5em;
-  }
-
+    .portfolio h4 {
+        font-size: 1.5em;
+    }
 }
 
 @media screen and (max-width: 1200px) {
-  .portfolio h4 {
-    font-size: 1em;
-  }
-
-  header h1 {
-    font-size: 130px;
-  }
-
-  header h2 {
-    font-size: 30px;
-  }
-
-  header img {
+    .portfolio h4 {
+        font-size: 1em;
+    }
+    header h1 {
+        font-size: 130px;
+    }
+    header h2 {
+        font-size: 30px;
+    }
+    header img {
         width: 130px;
-  }
-
+    }
 }
 
 @media screen and (max-width: 1380px) {
-
     header img {
         width: 120px;
     }
-
-  .skill-icons {
-    margin-top: 0;
-  }
-
-  .about-me {
-    grid-template-rows: auto;
-  }
-
-  p {
-    font-size: 12px;
-  }
+    .skill-icons {
+        margin-top: 0;
+    }
+    .about-me {
+        grid-template-rows: auto;
+    }
+    p {
+        font-size: 12px;
+    }
+    .portfolio-1 {
+        grid-template-rows: 150px 440px 50px 50px;
+    }
+    .portfolio-2 {
+        grid-template-rows: 150px 440px 50px 50px;
+    }
+    .portfolio-2 {
+        grid-template-rows: 150px 440px 50px 50px;
+    }
 }
 
 @media screen and (max-width: 1045px) {
-
     header h1 {
         font-size: 100px;
-      }
-
+    }
     header h2 {
         font-size: 30px;
-      }
+    }
+    .about-me {
+        display: grid;
+        grid-template-columns: 1fr;
+        max-width: 100%;
+    }
+    .about-me-skills {
+        grid-row: 2 /3;
+    }
+    .portfolio {
+        display: grid;
+        grid-template-columns: 1fr;
+        max-width: 100%;
+        grid-gap: 10px;
+    }
+    body p {
+        font-family: sans-serif;
+        font-size: 12px;
+        line-height: 1.3;
+    }
+    body {
+        display: grid;
+        margin: 5px;
+        padding-top: 3vh;
+    }
 
-  .about-me {
-    display: grid;
-    grid-template-columns: 1fr;
-    max-width: 100%;
-  }
-  .about-me-skills {
-    grid-row: 2 /3;
-  }
+    .portfolio-1 {
+        grid-template-rows: 150px auto 50px 50px;
+    }
 
-  .portfolio {
-    display: grid;
-    grid-template-columns: 1fr;
-    max-width: 100%;
-    grid-gap: 10px;
-  }
+    .portfolio-2 {
+        grid-template-rows: 150px auto 50px 50px;
+    }
 
-  body p {
-    font-family: sans-serif;
-    font-size: 12px;
-    line-height: 1.3;
-  }
+    .portfolio-3 {
+        grid-template-rows: 150px auto 50px 50px;
+    }
 
-  body {
-    display: grid;
-    margin: 5px;
-    padding-top: 3vh;
-  }
-
-  .portfolio h4 {
-    font-size: 2em;
-  }
+    .portfolio h4 {
+        font-size: 2em;
+    }
 }
 
 @media screen and (max-width: 700px) {
-  header {
-    font-size: 25px;
-    grid-template-columns: 2fr 1fr;
-  }
-
-  header h2 {
-    font-size: 18px;
-  }
-
-  header img {
-    width: 80px;
-  }
-
-  footer {
-    grid-template-columns: 1fr;
-    justify-items: center;
-  }
-
-  .contact-icons {
-    grid-column: 1 / 4;
-  }
-
-  .skill-icons {
-    margin-top: 0.2em;
-  }
-
-  .portfolio-1-banner {
-    background-position: 0 -0.1%;
-  }
-
+    header {
+        font-size: 25px;
+        grid-template-columns: 2fr 1fr;
+    }
+    header h2 {
+        font-size: 18px;
+    }
+    header img {
+        width: 80px;
+    }
+    footer {
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+    .contact-icons {
+        grid-column: 1 / 4;
+    }
+    .skill-icons {
+        margin-top: 0.2em;
+    }
+    .portfolio-1-banner {
+        background-position: 0 -0.1%;
+    }
 }
 
 @media screen and (max-width: 320px) {
-    
     header {
         margin-right: 5px;
     }
-
     main-content {
         margin-right: 5px;
     }
-
 }
