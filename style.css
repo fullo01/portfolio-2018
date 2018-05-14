@@ -217,7 +217,7 @@ main-content h1 {
 .portfolio-3 h4 {
     color: black;
     font-size: 2.3em;
-    font-family: "Libre Barcode 39 Text", cursive;
+    font-family: 'Shrikhand', cursive;
 }
 
 footer {
@@ -331,7 +331,7 @@ footer {
     .portfolio-2 {
         grid-template-rows: 150px 440px 50px 50px;
     }
-    .portfolio-2 {
+    .portfolio-3 {
         grid-template-rows: 150px 440px 50px 50px;
     }
 }
