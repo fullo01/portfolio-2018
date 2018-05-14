@@ -70,13 +70,10 @@ body p {
 }
 
 .about-me-text {
-    padding: 20px;
+    padding: 30px;
     background: rgb(39, 29, 177);
     color: rgb(240, 241, 255);
-}
-
-.about-me-text:hover {
-    background-color: rgb(17, 6, 180);
+    text-align: justify;
 }
 
 .about-me-skills {
@@ -90,10 +87,6 @@ body p {
 .about-me-skills h1 {
     max-height: 0;
     color: rgb(14, 31, 129);
-}
-
-.about-me-skills:hover {
-    background-color: rgb(250, 133, 23);
 }
 
 .skill-icons {
@@ -134,21 +127,18 @@ main-content h1 {
 }
 
 .portfolio-1 {
-    background: rgb(211, 114, 101);
+    background: rgb(211, 98, 83);
     color: white;
     padding: 20px;
     display: grid;
     grid-template-rows: 150px 330px 50px 50px;
+    text-align: justify;
 }
 
 .portfolio-1 h4 {
     color: black;
     font-family: "Pacifico", cursive;
     font-size: 2.0em;
-}
-
-.portfolio-1:hover {
-    background-color: rgb(211, 98, 83);
 }
 
 .portfolio-1-banner {
@@ -162,15 +152,12 @@ main-content h1 {
 }
 
 .portfolio-2 {
-    background: rgb(211, 114, 101);
+    background: rgb(211, 98, 83);
     color: white;
     padding: 20px;
     display: grid;
     grid-template-rows: 150px 330px 50px 50px;
-}
-
-.portfolio-2:hover {
-    background-color: rgb(211, 98, 83);
+    text-align: justify;
 }
 
 .portfolio-2-banner {
@@ -193,15 +180,12 @@ main-content h1 {
 }
 
 .portfolio-3 {
-    background: rgb(211, 114, 101);
+    background: rgb(211, 98, 83);
     color: white;
     padding: 20px;
     display: grid;
     grid-template-rows: 150px 330px 50px 50px;
-}
-
-.portfolio-3:hover {
-    background-color: rgb(211, 98, 83);
+    text-align: justify;
 }
 
 .portfolio-3-banner {
