@@ -78,7 +78,7 @@ body p {
 
 .about-me-skills {
     padding: 20px;
-    background: rgb(255, 141, 34);
+    background: #E5FCFF;
     color: white;
     display: grid;
     grid-template-rows: 1fr 10fr;
@@ -104,10 +104,6 @@ body p {
     margin: 0.3em;
 }
 
-.icon:hover {
-    color: rgb(243, 243, 243);
-}
-
 .icon h3 {
     margin: 0;
     font-size: 0.2em;
@@ -127,8 +123,8 @@ main-content h1 {
 }
 
 .portfolio-1 {
-    background: rgb(211, 98, 83);
-    color: white;
+    background: #E5FCFF;
+    color: rgb(14, 31, 129);
     padding: 20px;
     display: grid;
     grid-template-rows: 150px 330px 50px 50px;
@@ -152,8 +148,8 @@ main-content h1 {
 }
 
 .portfolio-2 {
-    background: rgb(211, 98, 83);
-    color: white;
+    background: #E5FCFF;
+    color: rgb(14, 31, 129);
     padding: 20px;
     display: grid;
     grid-template-rows: 150px 330px 50px 50px;
@@ -180,8 +176,8 @@ main-content h1 {
 }
 
 .portfolio-3 {
-    background: rgb(211, 98, 83);
-    color: white;
+    background: #E5FCFF;
+    color: rgb(14, 31, 129);
     padding: 20px;
     display: grid;
     grid-template-rows: 150px 330px 50px 50px;
